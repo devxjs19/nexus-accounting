@@ -1,0 +1,43 @@
+.hero {
+  padding: 4rem 6.4%;
+  background-color: rgba(15, 23, 42, 0.95);
+  color: #f9fafb;
+}
+
+.hero h1 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.hero h2 {
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+
+.hero h2 span {
+  color: #60a5fa;
+}
+
+.hero p {
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+}
+
+.hero p strong {
+  color: #60a5fa;
+}
+
+.hero a {
+  display: inline-block;
+  background: #1e3a8a;
+  border: 1px solid #f9fafb;
+  border-radius: 2.5rem;
+  color: #f9fafb;
+  padding: 0.625rem 1.875rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero a:hover,
+.hero a:focus {
+  background: #60a5fa;
+}
